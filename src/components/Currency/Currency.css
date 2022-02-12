@@ -1,0 +1,14 @@
+.currency {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+
+}
+.currency__rate {
+  color: rgb(21, 209, 21);
+  margin-right: 10px;
+}
+.currency__code {
+  color: rgb(223, 103, 35);
+}

@@ -1,0 +1,29 @@
+.form {
+  background-color: rgb(184, 102, 102);
+  width: 220px;
+  margin: 0 0 20px;
+  display: grid;
+  grid-template-columns: 130px 85px;
+  border-radius: 30px;
+}
+
+.form__input,
+.form__select {
+  background: none;
+  border: 0;
+  font-size: 16px;
+}
+
+.form__input {
+  padding-left: 15px;
+}
+.form__input:hover,
+.form__input:focus {
+  border-radius: 30px 0  0 30px;
+}
+
+.form__select {
+  padding: 12px;
+  outline: none;
+  cursor: pointer;
+}
